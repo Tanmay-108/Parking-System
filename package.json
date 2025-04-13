@@ -1,0 +1,25 @@
+{
+  "name": "mqtt_adafruit_led",
+  "version": "1.0.0",
+  "main": "index.js",
+  {
+    "scripts": {
+      "start": "node server.js",  // Or whatever your main file is
+      "build": "npm run build"    // If your app needs a build step, like React or Vue
+    }
+  }
+  
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "firebase-admin": "^13.2.0"
+  }
+}
+
+
