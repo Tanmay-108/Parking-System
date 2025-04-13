@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parking Slot Input</title>
+</head>
+<body>
+    <h1>Parking Slot Input</h1>
+    <form action="/submit-slot" method="POST">
+        <label for="slot">Select your parking slot:</label>
+        <select id="slot" name="slot">
+            <option value="1">Slot 1</option>
+            <option value="2">Slot 2</option>
+            <option value="3">Slot 3</option>
+        </select><br><br>
+
+        <input type="hidden" id="session_id" name="session_id" value="ABC123">  <!-- Replace with session ID -->
+        <input type="hidden" id="entry_time" name="entry_time" value="1617894567">  <!-- Replace with entry time -->
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
